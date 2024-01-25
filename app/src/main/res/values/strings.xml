@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Peñaranda\'s Catering Services</string>
+    <string name="pe_aranda_s_employee_portal">Peñaranda\'s Employee Portal</string>
+    <string name="customer_management">Customer Management</string>
+    <string name="item_and_equipment_management">Item and Equipment management</string>
+    <string name="list_of_customers">List of customers</string>
+    <string name="cus_man">Customer Management</string>
+    <string name="current_clients">Current Clients</string>
+    <string name="potential_clients">Potential Clients</string>
+    <string name="past_clients">Past Clients</string>
+    <string name="pe_aranda_s_catering_services">Peñaranda\'s Catering Services</string>
+    <string name="available_equipment">Available Equipment</string>
+    <string name="sources_of_raw_ingredients">Sources of raw Ingredients</string>
+    <string name="available_equip">Available Equipment</string>
+    <string name="none">None</string>
+</resources>

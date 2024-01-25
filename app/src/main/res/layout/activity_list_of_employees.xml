@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#520a05"
+    tools:context=".List_of_Employees">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="casual"
+        android:text="List of Employees"
+        android:textColor="#eded1a"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="58dp"
+        android:fontFamily="casual"
+        android:text="CEO: Mrs. Peñranda"
+        android:textColor="#eded1a" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="casual"
+        android:text="Cooking department:"
+        android:textAlignment="center"
+        android:textColor="#eded1a" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="casual"
+        android:text="Andrew Gamow"
+        android:textColor="#eded1a" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="37dp"
+        android:fontFamily="casual"
+        android:text="Kenny Panganiban"
+        android:textColor="#eded1a" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="202dp"
+        android:fontFamily="casual"
+        android:text="Juan Ramon Cruz"
+        android:textColor="#eded1a" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="casual"
+        android:text="Logistics Department:"
+        android:textColor="#eded1a" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="41dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+</RelativeLayout>
